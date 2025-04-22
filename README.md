@@ -59,7 +59,7 @@ This is the formation type that allows you to make use of the current arangement
 It works by calculating the average position of the selected group and calculating the relative positions before rotating (if you right click and drag).
 This doesn't store the relative positions so if you retarget the formation during movement the formation will deform.
 
-![CurrentFlormation](https://github.com/Howest-DAE-GD/gpp-researchtopic-SebastianMaxG/assets/64198670/8e9ece15-530d-483c-8574-183f21739e35)
+![CurrentFlormation](Resources/CurrentFlormation.gif)
 
 ### V / Spearhead
 
@@ -67,21 +67,21 @@ These formation types are V shaped formations by alternating the positions left 
 The V formation takes the selected point and moves the actors away from the point in the chosen direction creating a v shape.
 The Spearhead formation takes the selected point and moves the actors away from the point in the inverse chosen direction creating an inverse v shape like a spearhead or arrow point.
 
-![V-SpearFormation](https://github.com/Howest-DAE-GD/gpp-researchtopic-SebastianMaxG/assets/64198670/e2911d11-4bc1-4ebb-aaeb-c82167bdb135)
+![V-SpearFormation](Resources/V-SpearFormation.gif)
 
 ### Pole / Line 
 
 These formation types order units linearly in a vertical line (pole) or horizontal line (line) respectively.
 Here you can also see that the formations line up with the camera rotation.
 
-![PoleFormation](https://github.com/Howest-DAE-GD/gpp-researchtopic-SebastianMaxG/assets/64198670/592d05ce-d3cc-415d-97c4-4a6ef9d20e4d)
+![PoleFormation](Resources/PoleFormation.gif)
 
 ### O / Circle
 
 The O or circle formations uses the selected point as a centerpoint and calculates the radius by using a set radial distance between actors.
 This makes sure the actors don't clump together and remain spaced out.
 
-![OFormation](https://github.com/Howest-DAE-GD/gpp-researchtopic-SebastianMaxG/assets/64198670/62841ed9-687e-4edc-a3ee-b44d74753ea5)
+![OFormation](Resources/OFormation.gif)
 
 ## Movement
 
@@ -90,7 +90,7 @@ For future reference I came to the conclusion that it would have been better if 
 This would help the actors stay in formation better while in movement and may cause the actors to collide less with eachother.
 Or even by making use of steering circles to make sure the formation doesn't compress when moving around obstacles.
 
-![DodgingPoles](https://github.com/Howest-DAE-GD/gpp-researchtopic-SebastianMaxG/assets/64198670/37edc98a-aa93-49ca-9e83-3b8f1fa7e340)
+![DodgingPoles](Resources/DodgingPoles.gif)
 
 ## Sources
 
